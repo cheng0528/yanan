@@ -1,0 +1,335 @@
+@import url(m_style.css);
+.cen {
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  background: none;
+  background: url(../img/1.jpg) repeat-x;
+}
+.header .header_in {
+  width: 1002px;
+  height: 40px;
+  background: none;
+  margin: 0 auto;
+}
+.header .header_in ul li {
+  float: left;
+  line-height: 40px;
+  margin-right: 10px;
+  background: url(../img/3.jpg) no-repeat left center;
+  padding-left: 10px;
+}
+.header .header_in ul li:first-child {
+  background: none;
+}
+.logo {
+  width: 1002px;
+  height: 142px;
+  background: none;
+  margin: 0 auto;
+}
+.logo .a {
+  float: left;
+}
+.logo p {
+  float: left;
+  margin-top: 29px;
+  margin-left: 32px;
+  font-size: 13px;
+}
+.logo form {
+  float: left;
+  margin-left: 30px;
+  margin-top: 13px;
+}
+.logo form .niu {
+  border-radius: 3px;
+  background: #4588ce;
+  border: none;
+  width: 60px;
+  height: 33px;
+}
+.logo a {
+  float: left;
+  margin-left: 32px;
+  margin-top: 12px;
+  color: #4588ce;
+  font-size: 13px;
+}
+.nav {
+  width: 1002px;
+  height: 40px;
+  background: none;
+  margin: 0 auto;
+  border-top: 4px solid #4588ce ;
+  border-bottom: 1px solid #f7f7f7;
+}
+.nav ul li {
+  float: left;
+  margin-left: 28px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.main1 {
+  width: 1002px;
+  height: 630px;
+  background: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main1 .left {
+  width: 390px;
+  height: 630px;
+  background: none;
+  float: left;
+}
+.main1 .left h1 {
+  border-top: 2px solid #5490d1;
+  padding-top: 10px ;
+  margin-top: 11px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f7f7f7;
+}
+.main1 .left ul li {
+  line-height: 30px;
+}
+.main1 .right {
+  width: 612px;
+  height: 630px;
+  background: none;
+  float: right;
+}
+.main1 .right .b {
+  float: left;
+  margin-top: 12px;
+}
+.main1 .right .num1 {
+  width: 300px;
+  height: 257px;
+  background: none;
+  float: left;
+  border-top: 2px solid #5490d1;
+  margin-top: 12px;
+}
+.main1 .right .num1 .c {
+  float: left;
+  margin-top: 8px;
+  background: #941e20;
+  border: none;
+  border-radius: 3px;
+  width: 43px;
+  height: 23px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.main1 .right .num1 h1 {
+  float: left;
+  margin-top: 8px;
+  font-size: 18px;
+}
+.main1 .right .num1 a {
+  float: right;
+  margin-top: 15px;
+  color: #6a6a6a;
+}
+.main1 .right .num1 h2 {
+  float: left;
+  margin-top: 10px;
+  margin-right: 150px;
+  font-size: 15px;
+  padding-top: 11px;
+  border-top: 1px solid #f7f7f7 ;
+}
+.main1 .right .num1 dl {
+  float: left;
+}
+.main1 .right .num1 dl dt {
+  float: left;
+}
+.main1 .right .num1 dl dd {
+  float: right;
+  width: 150px;
+  margin-left: 10px;
+  height: 74px;
+}
+.main1 .right .num1 ul {
+  float: left;
+  margin-top: 5px;
+}
+.main1 .right .num1 ul li {
+  line-height: 25px;
+}
+.main1 .right .num1 ul li .f {
+  margin: 0 5px;
+}
+.main1 .right .num2 {
+  width: 300px;
+  height: 257px;
+  background: none;
+  float: right;
+  border-top: 2px solid #5490d1;
+  margin-top: 12px;
+}
+.main1 .right .num2 .e {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.main1 .right .num2 h2 {
+  float: left;
+  margin-top: 10px;
+  margin-right: 150px;
+  font-size: 15px;
+  padding-top: 11px;
+  border-top: 1px solid #f7f7f7 ;
+  margin-bottom: 10px;
+}
+.main1 .right .num2 dl {
+  float: left;
+}
+.main1 .right .num2 dl dt {
+  float: left;
+}
+.main1 .right .num2 dl dd {
+  float: right;
+  width: 150px;
+  margin-left: 10px;
+  height: 74px;
+}
+.main1 .right .num2 ul {
+  float: left;
+  margin-top: 5px;
+}
+.main1 .right .num2 ul li {
+  line-height: 25px;
+}
+.main1 .right .num2 ul li .f {
+  margin: 0 5px;
+}
+.main2 {
+  width: 1002px;
+  height: 346px;
+  background: none;
+  margin: 0 auto;
+}
+.main2 .left {
+  width: 650px;
+  height: 346px;
+  background: none;
+  float: left;
+  border-top: 1px solid #2a75c6 ;
+}
+.main2 .left h1 {
+  float: left;
+  margin-top: 8px;
+  font-size: 18px;
+  margin-left: 6px;
+}
+.main2 .left a {
+  float: right;
+  margin-top: 15px;
+  color: #6a6a6a;
+}
+.main2 .left h2 {
+  float: left;
+  margin-left: 6px;
+  margin-top: 10px;
+  margin-right: 150px;
+  font-size: 15px;
+  padding-top: 11px;
+  border-top: 1px solid #f7f7f7 ;
+}
+.main2 .left h5 {
+  float: left;
+  margin-top: 50px;
+  padding-top: 10px;
+  border-top: 1px solid #f4f4f4 ;
+}
+.main2 .left ul {
+  float: left;
+  margin-top: 10px;
+}
+.main2 .left ul li {
+  line-height: 30px;
+}
+.main2 .left dl {
+  float: left;
+}
+.main2 .left dl dt {
+  float: left;
+  width: 370px;
+}
+.main2 .left dl dd {
+  float: right;
+  width: ;
+}
+.main2 .right {
+  width: 330px;
+  height: 346px;
+  background: #ffff00;
+  float: right;
+  width: 300px;
+  height: 257px;
+  background: none;
+  float: left;
+  border-top: 2px solid #5490d1;
+  margin-top: 12px;
+}
+.main2 .right .c {
+  float: left;
+  margin-top: 8px;
+  background: #941e20;
+  border: none;
+  border-radius: 3px;
+  width: 43px;
+  height: 23px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.main2 .right h1 {
+  float: left;
+  margin-top: 8px;
+  font-size: 18px;
+  margin-left: 6px;
+}
+.main2 .right a {
+  float: right;
+  margin-top: 15px;
+  color: #6a6a6a;
+}
+.main2 .right h2 {
+  float: left;
+  margin-left: 6px;
+  margin-top: 10px;
+  margin-right: 150px;
+  font-size: 15px;
+  padding-top: 11px;
+  border-top: 1px solid #f7f7f7 ;
+}
+.main2 .right dl {
+  float: left;
+  margin-left: 6px;
+}
+.main2 .right dl dt {
+  float: left;
+}
+.main2 .right dl dd {
+  float: right;
+  width: 150px;
+  margin-left: 10px;
+  height: 74px;
+}
+.main2 .right ul {
+  float: left;
+  margin-top: 5px;
+  margin-left: 6px;
+}
+.main2 .right ul li {
+  line-height: 25px;
+}
+.main2 .right ul li .f {
+  margin: 0 5px;
+}

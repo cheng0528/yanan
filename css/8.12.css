@@ -1,0 +1,31 @@
+@import url(m_style.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  position: relative;
+  width: 100%;
+  height: 0.94rem;
+  background: #0000ff;
+}
+.container header .num1 {
+  width: 0.4rem;
+  height: 0.35rem;
+  position: absolute;
+  top: 0.33rem;
+  left: 0.3rem;
+}
+.container header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 0.3rem;
+}

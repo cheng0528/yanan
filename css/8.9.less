@@ -1,0 +1,215 @@
+@import url(m_style.css); //封装宽高及背景
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装浮动
+.fl(@f: left) {
+    float: @f;
+}
+
+.fr(@f: right) {
+    float: @f;
+}
+
+//封装居中
+.cen() {
+    margin: 0 auto;
+}
+.box(@dq: horizontal) {
+    display: -webkit-box; //设置父元素为弹性盒布局
+    -webkit-box-orient: @dq; //将子元素的排列方式设置
+}
+
+.container,
+body,   
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.container{
+    .box(vertical);
+    position: relative;
+        header{
+            //.full(100%,2.13rem,#4194f0);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            .box1{
+               .full(100%,0.8rem,#4194f0);
+               position: relative;
+            .num1{
+                position: absolute;
+                top: 0.28rem;
+                left: 0.3rem;
+                
+            } 
+            p{
+                -webkit-box-flex: 1;
+                line-height: 0.8rem;
+                text-align: center;
+                font-size: 0.27rem;
+                color: white;
+            }
+            }
+            .box2{
+                .full(100%,1.34rem,#4194f0);
+                position: relative;
+                .num2{
+                    //.fl;
+                    position: absolute;
+                    top: 0.1rem;
+                    left: 0.37rem;
+                    width: 1.08rem;
+                    height: 1.08rem;
+                }
+                ul{
+                    .fl;
+                    margin-left: 1.5rem;
+                    li{
+                        img{
+                            margin-left: 0.16rem;
+                            margin-top: 0.22rem;
+                            width: 0.58rem;
+                            height: 0.35rem;
+                        }
+                        p{
+                            margin-top: 0.18rem;
+                            margin-left: 0.18rem;
+                            font-size: 0.21rem;
+                            color: white;
+                        }
+                    }
+                }
+                .num3{
+                    .fr;
+                    position: absolute;
+                    top: 0.15rem;
+                    right: 0.18rem;
+                    width: 0.43rem;
+                    height: 0.43rem;
+                }
+            }
+             .box3{
+            .full(100%,0.68rem,#ffffff);
+            border: 1px solid #cccccc;
+            position: relative;
+            ul{
+                li{
+                    .fl;
+                    //margin-left: 0.78rem;
+                    line-height: 0.68rem;
+                    a{
+                        font-size: 0.26rem;
+                        margin-left: 1.58rem;
+                    }
+                    
+                }
+                li:first-child{
+                    a{
+                        margin-left: 0.78rem;
+                    }
+                }
+            }
+            .num4{
+                position: absolute;
+                top: 0.66rem;
+                left: 0;
+                width: 2.1rem;
+            }
+        }
+               
+    }
+    section{
+//      .full(100%,8.89rem,#f1f5f8);
+        -webkit-box-flex: 1;
+       position: absolute;
+       top: 2.84rem;
+       //width: 100%;
+       height: 100%;
+       //overflow: auto;
+       position: relative;
+       
+            .left{
+                position: absolute;
+                 top: 0rem;
+                left: 0;
+                width: 1.38rem;
+                height: 100%;
+                overflow-y: auto;
+                ul{
+               li{
+                   width: 1.38rem;
+                   height: 1.1rem;
+                   background: #f5f5f5;
+                   border: 1px solid #CCCCCC;
+                   
+                   a{
+                      display: block;
+                      margin-top: 0.4rem;
+                      width: 1rem;
+                        height: 0.56rem;  
+                        line-height: 0.3rem;
+                       font-size: 0.24rem;
+                       margin-left: 0.19rem;
+                       //background: greenyellow;
+                       color: #7d7d7d;
+                   }
+               }
+               li:hover{
+                   background: white;
+                   a{
+                     color: #4194f0;
+                   }
+               }
+           }
+            }
+            ::-webkit-scrollbar{
+                width: 0;
+                height: 0;
+            }
+           .right{
+               .full(5.03rem,100%,#d8d8d8);
+               position: absolute;
+               top: 0;
+               right: 0;
+               overflow-x:auto ;
+               .right_1{
+                   .full(100%,0.66rem,#f5f5f5);
+                   width: 100%;
+                   position: absolute;
+                   top: 0;
+                   right: 0;
+                   overflow-x: auto;
+                   .con{
+                       .full(10.5rem,0.44rem,none);
+                       margin-top:0.1rem;
+                       .fl;
+                      button{
+                       .full(0.82rem,0.44rem,white);
+                       border: 1px solid #CCCCCC;
+                       border-radius: 0.4rem;
+                       margin-left: 0.2rem;
+                       span{
+                           font-size: 0.2rem;
+                       }          
+                   } 
+                   button:hover{
+                       background: #4194f0;
+                       span{
+                           color: white;
+                       }
+                   }
+                   } 
+               }
+               
+           }
+        
+    }
+    footer{
+        //.full(100%,1.2rem,black);
+    }
+}

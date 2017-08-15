@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/8.12.css"/>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img src="img/images/QQ图片20170809083135_03.jpg" class="num1"/>
+				<img src="img/images/2_06.jpg"/>
+				<h1>北京体育大学</h1>
+				<dl>
+					<dt><img src="img/images/2_03.jpg"/></dt>
+					<dd> 我的店铺</dd>
+				</dl>
+				
+				
+			</header>
+			<section></section>
+			<footer></footer>
+		</div>
+	</body>
+</html>

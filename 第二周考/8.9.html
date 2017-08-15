@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/8.9.css"/>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="box1">
+					<img src="img/images/QQ图片20170809083135_03.jpg" class="num1"/>
+					<p>杭州西子湖四季三星级商务全国连锁</p>
+				</div>
+				<div class="box2">
+					<img src="img/images/QQ图片20170809083135_06.jpg" class="num2"/>
+					<ul>
+						<li>
+							<img src="img/images/QQ图片20170809083135_11.jpg"/>
+							<img src="img/images/QQ图片20170809083135_13.jpg"/>
+							<img src="img/images/QQ图片20170809083135_15.jpg"/>
+						</li>
+						<li>
+							<p>商品&nbsp;22种&nbsp;|&nbsp;起送&nbsp;￥0</p>
+						</li>
+					</ul>
+					<img src="img/images/QQ图片20170809083135_08.jpg" class="num3"/>
+				</div>
+			</header>
+			<section>
+				<div class="box3">
+					<ul>
+						<li><a href="#">商品</a></li>
+						<li><a href="#">详情</a></li>
+						<li><a href="#">评价</a></li>
+					</ul>
+					<img src="img/images/QQ图片20170809083135_22.jpg" class="num4"/>
+				</div>
+				<div class="box4">
+					<div class="left">
+						<ul>
+							<li><a href="#">方便速食</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">超值礼盒装饮料</a></li>
+							<li><a href="#">休闲零食</a></li>
+							<li><a href="#">饼干糕点</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">必胜客披萨</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">肯德基全家福</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">好吃的嘎嘣脆</a></li>
+							<li><a href="#">速冻饺子</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">美味的菜肴</a></li>
+							<li><a href="#" style="margin-top: 0.25rem;">酸甜可口的水果</a></li>
+						</ul>
+					</div>
+					<div class="right"></div>
+			</section>
+			<footer></footer>
+		</div>
+	</body>
+</html>

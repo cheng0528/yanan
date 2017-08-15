@@ -1,0 +1,180 @@
+@import url(m_style.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.container header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.container header .box1 {
+  width: 100%;
+  height: 0.8rem;
+  background: #4194f0;
+  position: relative;
+}
+.container header .box1 .num1 {
+  position: absolute;
+  top: 0.28rem;
+  left: 0.3rem;
+}
+.container header .box1 p {
+  -webkit-box-flex: 1;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.27rem;
+  color: white;
+}
+.container header .box2 {
+  width: 100%;
+  height: 1.34rem;
+  background: #4194f0;
+  position: relative;
+}
+.container header .box2 .num2 {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.37rem;
+  width: 1.08rem;
+  height: 1.08rem;
+}
+.container header .box2 ul {
+  float: left;
+  margin-left: 1.5rem;
+}
+.container header .box2 ul li img {
+  margin-left: 0.16rem;
+  margin-top: 0.22rem;
+  width: 0.58rem;
+  height: 0.35rem;
+}
+.container header .box2 ul li p {
+  margin-top: 0.18rem;
+  margin-left: 0.18rem;
+  font-size: 0.21rem;
+  color: white;
+}
+.container header .box2 .num3 {
+  float: right;
+  position: absolute;
+  top: 0.15rem;
+  right: 0.18rem;
+  width: 0.43rem;
+  height: 0.43rem;
+}
+.container header .box3 {
+  width: 100%;
+  height: 0.68rem;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  position: relative;
+}
+.container header .box3 ul li {
+  float: left;
+  line-height: 0.68rem;
+}
+.container header .box3 ul li a {
+  font-size: 0.26rem;
+  margin-left: 1.58rem;
+}
+.container header .box3 ul li:first-child a {
+  margin-left: 0.78rem;
+}
+.container header .box3 .num4 {
+  position: absolute;
+  top: 0.66rem;
+  left: 0;
+  width: 2.1rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  position: absolute;
+  top: 2.84rem;
+  height: 100%;
+  position: relative;
+}
+.container section .left {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  width: 1.38rem;
+  height: 100%;
+  overflow-y: auto;
+}
+.container section .left ul li {
+  width: 1.38rem;
+  height: 1.1rem;
+  background: #f5f5f5;
+  border: 1px solid #CCCCCC;
+}
+.container section .left ul li a {
+  display: block;
+  margin-top: 0.4rem;
+  width: 1rem;
+  height: 0.56rem;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  margin-left: 0.19rem;
+  color: #7d7d7d;
+}
+.container section .left ul li:hover {
+  background: white;
+}
+.container section .left ul li:hover a {
+  color: #4194f0;
+}
+.container section ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.container section .right {
+  width: 5.03rem;
+  height: 100%;
+  background: #d8d8d8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-x: auto ;
+}
+.container section .right .right_1 {
+  height: 0.66rem;
+  background: #f5f5f5;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-x: auto;
+}
+.container section .right .right_1 .con {
+  width: 10.5rem;
+  height: 0.44rem;
+  background: none;
+  margin-top: 0.1rem;
+  float: left;
+}
+.container section .right .right_1 .con button {
+  width: 0.82rem;
+  height: 0.44rem;
+  background: #ffffff;
+  border: 1px solid #CCCCCC;
+  border-radius: 0.4rem;
+  margin-left: 0.2rem;
+}
+.container section .right .right_1 .con button span {
+  font-size: 0.2rem;
+}
+.container section .right .right_1 .con button:hover {
+  background: #4194f0;
+}
+.container section .right .right_1 .con button:hover span {
+  color: white;
+}
